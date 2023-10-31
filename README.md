@@ -79,15 +79,15 @@
 
    print("Hello ini script pyhon")
 
-print("    *".format("*" *1))
-print("   ***".format("*" *2))
-print("  *****".format("*" *5))
-print(" *******".format("*" *7))
-print("*********".format("*" *9))
-print(" *******".format("*" *7))
-print("  *****".format("*" *5))
-print("   ***".format("*" *3))
-print("    *".format("*" *1))
+ print("    *".format("*" *1))
+ print("   ***".format("*" *2))
+ print("  *****".format("*" *5))
+ print(" *******".format("*" *7))
+ print("*********".format("*" *9))
+ print(" *******".format("*" *7))
+ print("  *****".format("*" *5))
+ print("   ***".format("*" *3))
+ print("    *".format("*" *1))
 
 *  for i in range(lebar_belah_ketupat) : untuk mencetak loop bagian atas belah ketupat sebanyak input
 *  for j in range(lebar_belah_ketupat-i) : untuk mencetak sebelum bintang setiap baris
