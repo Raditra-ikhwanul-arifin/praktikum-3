@@ -1,5 +1,5 @@
 # Praktikum 3
-> sebagai Mata Kuliah Bahasa Pemrograman | Universitas Pelita Bangsa
+> Tugas Bahasa Pemrograman | Universitas Pelita Bangsa
 
 ## Laporan Praktikum
 ### Latihan 1
@@ -45,12 +45,13 @@
     print('{0:>3} {1:>16}'.format(8, 10**8))
     print('{0:>3} {1:>16}'.format(9, 10**9))
     print('{0:>3} {1:>16}'.format(10, 10**10))
-* penggunaan end, berfungsi untuk menjadikan dua line print berbeda menjadi 1 baris yang sama
-* penggunaan separator, berfungsi untuk memisahkan argumen, fungsi sep digunakan untuk memberi kesamaan tanda pemisah
-* string format, berfungsi untuk format int menjadi string atau format suatu nilai dan memasukkan nilai ke dalam pengganti string{} 
+* End: Parameter end digunakan untuk menentukan karakter apa yang harus dicetak di akhir baris. Pada bagian pertama kode, end='' digunakan untuk mencetak 'A', 'B', dan 'C' tanpa spasi atau baris baru di antara keduanya. Pernyataan print() kedua digunakan untuk mencetak karakter baris baru.
+* Pemisah: Parameter sep digunakan untuk menentukan karakter apa yang harus dicetak di antara beberapa nilai. Pada bagian kedua kode, sep=',' digunakan untuk mencetak koma antara nilai w, x, y, dan z. Pemisah lain seperti '', ':', dan '-----' juga digunakan untuk menunjukkan berbagai cara memformat output.
+* Pemformatan String: Metode format() digunakan untuk memformat string dengan nilai. Di bagian ketiga kode, metode format() digunakan untuk mencetak nilai 0 hingga 10 beserta pangkat 10 yang sesuai. Bagian :>3 dan :>16 dari string format digunakan untuk menentukan nilai minimum lebar bidang dan perataan nilai di dalam bidang.
 
->output
-<img src="Screenshot/Latihan1_output.png">
+
+>contoh
+<img src="Screenshot/p1_output.png">
 
 ### Latihan2
 
