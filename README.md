@@ -51,7 +51,9 @@
 
 
 >contoh
-<img src="Screenshot/p1_output.png">
+<img src="screensot/p1.jpg">
+<img src="screensot/p1.jpg">
+
 
 ### Latihan2
 
