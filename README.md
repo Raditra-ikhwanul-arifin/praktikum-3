@@ -77,29 +77,17 @@
 
 ### Latihan3
 
-    print('##  Program Python Belah Ketupat Bintang  ##')
-    print('Hello ini script python')
-    print('============================================')
-    print()
- 
-    lebar_belah_ketupat = int(input('Input lebar belah ketupat: '))
-    print()
- 
-    for i in range(lebar_belah_ketupat):
-      for j in range(lebar_belah_ketupat-i):
-        print(' ',end='')
-     
-      for k in range(i+1):
-        print('* ',end='')
-      print()
+   print("Hello ini script pyhon")
 
-    for i in range(1,lebar_belah_ketupat):
-      for j in range(i+1):
-        print(' ',end='')
-     
-      for k in range(lebar_belah_ketupat-i):
-        print('* ',end='')
-      print()
+print("    *".format("*" *1))
+print("   ***".format("*" *2))
+print("  *****".format("*" *5))
+print(" *******".format("*" *7))
+print("*********".format("*" *9))
+print(" *******".format("*" *7))
+print("  *****".format("*" *5))
+print("   ***".format("*" *3))
+print("    *".format("*" *1))
 
 *  for i in range(lebar_belah_ketupat) : untuk mencetak loop bagian atas belah ketupat sebanyak input
 *  for j in range(lebar_belah_ketupat-i) : untuk mencetak sebelum bintang setiap baris
