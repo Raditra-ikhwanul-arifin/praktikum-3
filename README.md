@@ -50,33 +50,36 @@
 * Pemformatan String: Metode format() digunakan untuk memformat string dengan nilai. Di bagian ketiga kode, metode format() digunakan untuk mencetak nilai 0 hingga 10 beserta pangkat 10 yang sesuai. Bagian :>3 dan :>16 dari string format digunakan untuk menentukan nilai minimum lebar bidang dan perataan nilai di dalam bidang.
 
 
->contoh
+>Contoh
 <img src="screensot/p1.jpg">
-<img src="screensot/p1.jpg">
+
+>Output
+<img src="screensot/hp1.jpg">
 
 
 ### Latihan2
 
-    a=input("masukkan nilai a:")
-    b=input("masukkan nilai b:")
-    print("Variable a=",a)
-    print("Variable b=",b)
-    print("Hasil penggabungan {0}&{1}={2}".format(a, b, a+b))
+    n=input("masukkan nilai n:")
+    t=input("masukkan nilai t:")
+    print("Variable n=",n)
+    print("Variable t=",t)
+    print("Hasil penggabungan {0}&{1}={2}".format(n, t, n+t))
 
     # konversi nilai variable
-    a=int(a)
-    b=int(b)
-    print("Hasil penjumlahan {0}+{1}={2}".format(a, b, a+b))
-    print("Hasil pembagian {0}/{1}={2:.2f}".format(a, b, a/b))
+    n=int(n)
+    t=int(t)
+    print("Hasil penjumlahan {0}+{1}={2}".format(n, t, n+t))
+    print("Hasil pembagian {0}/{1}={2:.2f}".format(n, t, n/t))
 
-* input a&b = menginput nilai yang diminta untuk variabel a&b
-* print("variable a=", a) & ("variable b=", b) = mengeluarkan output text dan memanggil nilai yang telah di input
-* a=int(a) & a=int(b) = mengubah string menjadi integer guna menyelesaikan operasi matematika
-* format = digunakan menggabungkan string dengan variabel integer
-* {2:.2f} = menghasilkan output maks 2 bilangan setelah koma (.)
+* Fungsi 'input()' digunakan untuk mendapatkan input pengguna dari konsol. Baris pertama meminta pengguna memasukkan nilai 'n', dan baris kedua meminta pengguna memasukkan nilai 't'.
+* Nilai yang dimasukkan oleh pengguna ditetapkan ke variabel 'n' dan 't' menggunakan operator penugasan '='.
+n=ke dalam(n)
+* Metode 'format()' digunakan untuk memformat string dengan nilai. Pada baris ketiga kode, metode 'format()' digunakan untuk mencetak nilai 'n' dan 't' beserta penggabungannya menggunakan operator '+'. Kurung kurawal '{}' digunakan sebagai pengganti nilai, dan metode 'format()' menggantikannya dengan nilai sebenarnya.
+* Nilai 'n' dan 't' diubah dari string menjadi bilangan bulat menggunakan fungsi 'int()'. Hal ini diperlukan karena operator '+' hanya dapat digunakan dengan bilangan bulat, bukan string.
+* Metode 'format()' digunakan lagi untuk mencetak jumlah dan hasil bagi 'n' dan 't'. Bagian ':.2f' dari string format digunakan untuk menentukan bahwa hasil bagi harus dibulatkan menjadi dua tempat desimal.
 
->output
-<img src="Screenshot/Latihan2_output.png">
+>Contoh
+<img src="screensot/p2.jpg">
 
 ### Latihan3
 
@@ -92,15 +95,12 @@
  print("   ***".format("*" *3))
  print("    *".format("*" *1))
 
-*  for i in range(lebar_belah_ketupat) : untuk mencetak loop bagian atas belah ketupat sebanyak input
-*  for j in range(lebar_belah_ketupat-i) : untuk mencetak sebelum bintang setiap baris
-*  for k in range(i_+1) : untuk mencetak loop bintang 
-*  for i in range(1,lebar_belah_ketupat) : loop kedua mencetak bagian bawah belah ketupat. Loop ini juga akan berjalan  for j in range(lebar_belah_ketupat-i) kali.
-*  for j in range(i+1) : loop mencetak spasi sebelum bintang bagian bawah
-*  for k in range(lebar_belah_ketupat-i) : loop mencetak bintang pada setiap baris bagian bawah
+* Baris pertama kode mencetak pesan sederhana menggunakan fungsi print().
+* Sembilan baris kode berikutnya menggunakan pemformatan string untuk mencetak bentuk belah ketupat. Metode format() digunakan untuk menyisipkan string tanda bintang (*) ke dalam string templat yang menyertakan spasi dan karakter baris baru. Jumlah tanda bintang di setiap baris bertambah dari 1 menjadi 9 dan kemudian berkurang kembali menjadi 1, sehingga menciptakan bentuk belah ketupat.
+* Setiap garis bentuk wajik dicetak menggunakan fungsi print(). Metode format() digunakan untuk menyisipkan string tanda bintang yang sesuai ke dalam string templat.
 
->output
-<img src="Screenshot/Latihan3_output.png">
+>Contoh
+<img src="screensot/p3.jpg">
 
 ### Lingkaran
     import math
@@ -126,12 +126,12 @@
 * {luas:.2f} : memanggil output dari variabel luas dan keliling berupa float dengan maks output 2 angka setelah koma (.)
 * line 14 : menghasilkan output keliling menggunakan f string
 
->output
-<img src="Screenshot/Lingkaran_output.png">
+>Contoh
+<img src="screensot/luas lingkaran.jpg">
 
 ### Flowchart
 
-<img src="Screenshot/Flowchart_Pic.png">
+<img src="screensot/flowchart2.jpg">
 
 * Masukkan jari-jari lingkaran (r)
 * Hitung Luas Lingkaran dengan rumus L = pi * r * r
